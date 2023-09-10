@@ -14,5 +14,6 @@ public class Movement : MonoBehaviour
         movement = new Vector2(horizontalInput, verticalInput);
         movement.Normalize();
         transform.Translate(movement * moveSpeed * Time.deltaTime);
-    }
+        
+    } 
 }
